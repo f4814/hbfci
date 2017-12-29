@@ -1,24 +1,25 @@
-name:                hbfci - Haskell Brainfuck Compiler Interpreter
+name:                hbfci
 version:             0.1.0.0
-homepage:            https://github.com/githubuser/hbfci#readme
-license:             BSD3
+homepage:            https://github.com/Fabiangeiselhart/hbfci
+license:             MIT
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2017 Author name here
-category:            Web
+author:              f4814n
+maintainer:          me@f4814n.de
+-- copyright:           2017 Au
+category:            Compiler
 build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files:  README.md
 
 executable hbfc
-  hs-source-dirs:      hbcf
+  hs-source-dirs:      hbfc
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
 
 executable hbfi
-  hs-source-dirs:      hbci
+  hs-source-dirs:      hbfi
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+                     , bytestring
