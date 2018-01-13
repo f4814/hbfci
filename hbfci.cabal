@@ -16,6 +16,7 @@ executable hbfc
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+                     , process
 
 executable hbfi
   hs-source-dirs:      hbfi
